@@ -11,9 +11,9 @@ export default function Home() {
       <Header/>
       <Experience/>
       <Info/>
-      <div className="social">
+      <div className="buttons">
         <SocialBtns/>
-        <button className="bts-primary">contate-me</button>
+        <a className="bts-primary">contate-me</a>
       </div>
         
     </main>   

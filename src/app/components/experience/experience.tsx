@@ -10,6 +10,20 @@ export function Experience(){
             <p>texto</p>
             <div className="experience-time">
 
+                /*<div className="experience-language">
+                     <Image 
+                    src=""
+                    alt=""
+                    width={50}
+                    heigth={50}
+                    priority
+                    />
+                    <div className="experience-unit">
+                        <div className="experience-measure"></div>
+                        <span>2 anos</span>
+                    </div>
+                </div>*/
+
             </div>
         </div>
     )

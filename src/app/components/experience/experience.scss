@@ -15,6 +15,66 @@
         text-align: center;
     }
 
+    .experience-time{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .experience-language{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+
+        .experience-unit{
+            display: flex;
+            width: 300px;
+            height: 30px;
+            border-radius: 24px;
+            border: 1px solid var(--text-secundario);
+
+            justify-content: flex-start;
+            align-items: center;
+
+            .experience-measure{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                border-radius: 24px;
+                height: 30px;
+                border: 1px solid linear-gradient(90deg, #034159 2.62%, #0CF25D 93.38%);
+                background: linear-gradient(90deg, #034159 2.62%, #0CF25D 93.38%);
+
+                color: var(--text-primary);
+                font-weight: 300;
+                text-align: center;
+                font-size: 12px;
+
+                &.measure-1{
+                    width: 20%;
+                }
+                &.measure-2{
+                    width: 40%;
+                }
+                &.measure-3{
+                    width: 60%;
+                }
+                &.measure-4{
+                    width: 80%;
+                }
+                &.measure-5{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    
+
     @media (min-width: 768){
         align-items: flex-start;
         p {
